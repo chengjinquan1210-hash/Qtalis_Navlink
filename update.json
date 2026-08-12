@@ -1,0 +1,12 @@
+{
+  "version": "1.2.1",
+  "releasedAt": "2026-08-12",
+  "packageUrl": "https://github.com/chengjinquan1210-hash/Qtalis_Navlink/releases/download/v1.2.1/QtalisNavLink-v1.2.1-win-x64.zip",
+  "downloadUrl": "https://github.com/chengjinquan1210-hash/Qtalis_Navlink/releases/tag/v1.2.1",
+  "sha256": "6111993c1c5f5cf0d415e4b072a0c5a113d19238f9e7deacfc187928fdad359c",
+  "mandatory": false,
+  "notes": [
+    "Added GitHub-based automatic update checks.",
+    "Added verified download, rollback, and automatic restart support."
+  ]
+}
