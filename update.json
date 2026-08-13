@@ -1,12 +1,13 @@
 {
-  "version": "1.2.1",
-  "releasedAt": "2026-08-12",
-  "packageUrl": "https://github.com/chengjinquan1210-hash/Qtalis_Navlink/releases/download/v1.2.1/QtalisNavLink-v1.2.1-win-x64.zip",
-  "downloadUrl": "https://github.com/chengjinquan1210-hash/Qtalis_Navlink/releases/tag/v1.2.1",
-  "sha256": "6111993c1c5f5cf0d415e4b072a0c5a113d19238f9e7deacfc187928fdad359c",
+  "version": "1.2.2",
+  "releasedAt": "2026-08-13",
+  "packageUrl": "https://cdn.shopify.com/s/files/1/0947/5430/8400/files/QtalisNavLink-v1.2.2-win-x64.zip",
+  "downloadUrl": "https://www.qtalisgnss.com/pages/resource-hub",
+  "sha256": "8a9e65f8eb664bed701dadb9fea325499290542677e58cd2549fce75d7b0d085",
   "mandatory": false,
   "notes": [
-    "Added GitHub-based automatic update checks.",
-    "Added verified download, rollback, and automatic restart support."
+    "Improved RINEX observation analysis with duration, C/N0 thresholds, and a collapsible analysis log.",
+    "Added mouse-wheel satellite switching for the RINEX C/N0 time-series selector.",
+    "Refined position-evaluation heading layout and 95% error ellipse styling."
   ]
 }
