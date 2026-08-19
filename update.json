@@ -1,16 +1,13 @@
 {
-  "version": "1.2.4",
+  "version": "1.2.5",
   "releasedAt": "2026-08-19",
-  "packageUrl": "https://cdn.shopify.com/s/files/1/0947/5430/8400/files/QtalisNavLink-v1.2.4-win-x64.zip",
+  "packageUrl": "https://cdn.shopify.com/s/files/1/0947/5430/8400/files/QtalisNavLink-v1.2.5-win-x64.zip",
   "downloadUrl": "https://www.qtalisgnss.com/pages/resource-hub",
-  "sha256": "ecf759db1a3c0c5bbd188abc35e76276f30e3d03e00eae97f7e2e5bfb14e7446",
+  "sha256": "62721011f76aab0bc900db428eb81eb598d10b829ea9c37cc02c105999ca555f",
   "mandatory": false,
   "notes": [
-    "Improved serial and TCP raw-data capture reliability for mixed ASCII and binary streams.",
-    "Raw bytes are written with priority while complete NMEA and ComNav ASCII logs remain available for terminal preview and parsing.",
-    "Binary fragments are excluded from terminal preview and text parsing to prevent garbled output and reduce UI load.",
-    "Improved timestamp rendering for fragmented ASCII log lines.",
-    "Fixed persistent language selection and status-bar translations.",
-    "This release is delivered through the Qtalis official download service."
+    "Completed the English-mode localization audit.",
+    "Footer and update-check status now refresh in the selected language.",
+    "Untranslated internal UI labels no longer appear as Chinese in English mode."
   ]
 }
