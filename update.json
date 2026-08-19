@@ -1,7 +1,8 @@
 {
   "version": "1.2.5",
   "releasedAt": "2026-08-19",
-  "packageUrl": "https://cdn.shopify.com/s/files/1/0947/5430/8400/files/QtalisNavLink-v1.2.5-win-x64.zip",
+  "packageUrl": "https://github.com/chengjinquan1210-hash/Qtalis_Navlink/releases/download/v1.2.5/QtalisNavLink-v1.2.5-win-x64.zip",
+  "packageFallbackUrl": "https://cdn.shopify.com/s/files/1/0947/5430/8400/files/QtalisNavLink-v1.2.5-win-x64.zip",
   "downloadUrl": "https://www.qtalisgnss.com/pages/resource-hub",
   "sha256": "62721011f76aab0bc900db428eb81eb598d10b829ea9c37cc02c105999ca555f",
   "mandatory": false,
