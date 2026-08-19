@@ -4,9 +4,10 @@
   "packageUrl": "https://github.com/chengjinquan1210-hash/Qtalis_Navlink/releases/download/v1.2.5/QtalisNavLink-v1.2.5-win-x64.zip",
   "packageFallbackUrl": "https://cdn.shopify.com/s/files/1/0947/5430/8400/files/QtalisNavLink-v1.2.5-win-x64.zip",
   "downloadUrl": "https://www.qtalisgnss.com/pages/resource-hub",
-  "sha256": "62721011f76aab0bc900db428eb81eb598d10b829ea9c37cc02c105999ca555f",
+  "sha256": "ad19a85a50ed96d3d9ac95e04008097b763d54f851b0f252097422b788f31db7",
   "mandatory": false,
   "notes": [
+    "Fixed OTA installer compatibility with the update-package layout.",
     "Completed the English-mode localization audit.",
     "Footer and update-check status now refresh in the selected language.",
     "Untranslated internal UI labels no longer appear as Chinese in English mode."
