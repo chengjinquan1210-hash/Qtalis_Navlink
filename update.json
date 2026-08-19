@@ -1,5 +1,5 @@
 {
-  "version": "1.2.4",
+  "version": "1.2.5",
   "releasedAt": "2026-08-19",
   "notes": [
     "Improved serial and TCP raw-data capture reliability for mixed ASCII and binary streams.",
