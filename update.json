@@ -1,13 +1,19 @@
 {
-  "version": "1.2.2",
-  "releasedAt": "2026-08-13",
-  "packageUrl": "https://cdn.shopify.com/s/files/1/0947/5430/8400/files/QtalisNavLink-v1.2.2-win-x64.zip",
-  "downloadUrl": "https://www.qtalisgnss.com/pages/resource-hub",
-  "sha256": "8a9e65f8eb664bed701dadb9fea325499290542677e58cd2549fce75d7b0d085",
-  "mandatory": false,
+  "version": "1.2.4",
+  "releasedAt": "2026-08-19",
   "notes": [
-    "Improved RINEX observation analysis with duration, C/N0 thresholds, and a collapsible analysis log.",
-    "Added mouse-wheel satellite switching for the RINEX C/N0 time-series selector.",
-    "Refined position-evaluation heading layout and 95% error ellipse styling."
-  ]
+    "Improved serial and TCP raw-data capture reliability for mixed ASCII and binary streams.",
+    "Raw bytes are written with priority while complete NMEA and ComNav ASCII logs remain available for terminal preview and parsing.",
+    "Binary fragments are excluded from terminal preview and text parsing to prevent garbled output and reduce UI load.",
+    "Improved timestamp rendering for fragmented ASCII log lines.",
+    "Fixed persistent language selection and status-bar translations.",
+    "GitHub is now the preferred update source, with the Qtalis official site used as a fallback."
+  ],
+  "packageUrl": "https://github.com/chengjinquan1210-hash/Qtalis_Navlink/releases/download/v1.2.4/QtalisNavLink-v1.2.4-win-x64.zip",
+  "packageFallbackUrl": "https://cdn.shopify.com/s/files/1/0947/5430/8400/files/QtalisNavLink-v1.2.4-win-x64.zip",
+  "downloadUrl": "https://www.qtalisgnss.com/pages/resource-hub",
+  "sha256": "6074ae2eff1760b7658c36a30e425627273a186916dfd946dcb9489410475db1",
+  "mandatory": false,
+  "packageSizeBytes": 7995490
 }
+
