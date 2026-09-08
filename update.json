@@ -1,15 +1,17 @@
 {
-  "version": "1.2.5",
-  "releasedAt": "2026-08-19",
-  "packageUrl": "https://github.com/chengjinquan1210-hash/Qtalis_Navlink/releases/download/v_1.2.5/QtalisNavLink-v1.2.5-win-x64.zip",
-  "packageFallbackUrl": "https://cdn.shopify.com/s/files/1/0947/5430/8400/files/QtalisNavLink-v1.2.5-win-x64.zip",
+  "version": "1.2.9",
+  "releasedAt": "2026-09-08",
+  "packageUrl": "https://github.com/chengjinquan1210-hash/Qtalis_Navlink/releases/latest/download/QtalisNavLink-v1.2.9-win-x64.zip",
+  "packageFallbackUrl": "https://cdn.shopify.com/s/files/1/0947/5430/8400/files/QtalisNavLink-v1.2.9-win-x64.zip",
   "downloadUrl": "https://www.qtalisgnss.com/pages/resource-hub",
-  "sha256": "ad19a85a50ed96d3d9ac95e04008097b763d54f851b0f252097422b788f31db7",
+  "sha256": "b3dfce7954ad351fe0fc2bbbe4dbb7afd0101ceb0fc01bb7f641bef80feced6f",
   "mandatory": false,
   "notes": [
-    "Fixed OTA installer compatibility with the update-package layout.",
-    "Completed the English-mode localization audit.",
-    "Footer and update-check status now refresh in the selected language.",
-    "Untranslated internal UI labels no longer appear as Chinese in English mode."
-  ]
+    "Automatically uses M925B satellite signals when raw recording is stopped and NMEA V4.1 GSV while recording.",
+    "Restored M925B NavIC L5 and S-band signal decoding.",
+    "Added standard GSV mapping for SBAS and NavIC while hiding unknown signal identifiers.",
+    "Updated quick-command routing, POSTDATA commands, and legacy receiver correction forwarding compatibility.",
+    "Renamed device recording actions to Save output."
+  ],
+  "packageSizeBytes": 7871805
 }
