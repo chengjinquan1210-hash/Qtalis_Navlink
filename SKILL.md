@@ -1,8 +1,6 @@
 ---
-name
-gnss-technical-support
-description
-Use the public Qtalis NavLink GNSS manuals and specifications to answer receiver configuration, command, interface, capability, data-format, and troubleshooting questions with model- and firmware-specific evidence.
+name: gnss-technical-support
+description: Use the public Qtalis NavLink GNSS manuals and specifications to answer receiver configuration, command, interface, capability, data-format, and troubleshooting questions with model- and firmware-specific evidence.
 ---
 
 GNSS Technical Support
