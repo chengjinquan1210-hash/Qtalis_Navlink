@@ -1,5 +1,4 @@
 ---
----
 name: gnss-technical-support
 description: 检索仓库 public/manual 和 public/specification 中的 GNSS 接收机资料，按型号、硬件和固件版本回答配置、命令、接口、能力与排障问题，并给出可核验的文件和页码依据。
 ---
