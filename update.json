@@ -1,17 +1,26 @@
 {
-  "version": "1.2.9",
-  "releasedAt": "2026-09-08",
-  "packageUrl": "https://github.com/chengjinquan1210-hash/Qtalis_Navlink/releases/latest/download/QtalisNavLink-v1.2.9-win-x64.zip",
-  "packageFallbackUrl": "https://cdn.shopify.com/s/files/1/0947/5430/8400/files/QtalisNavLink-v1.2.9-win-x64.zip",
+  "version": "1.2.10",
+  "releasedAt": "2026-09-22",
+  "packageUrl": "https://github.com/chengjinquan1210-hash/Qtalis_Navlink/releases/download/v1.2.10/QtalisNavLink-v1.2.10-win-x64.zip",
+  "packageFallbackUrl": "https://cdn.shopify.com/s/files/1/0947/5430/8400/files/QtalisNavLink-v1.2.10-win-x64.zip",
   "downloadUrl": "https://www.qtalisgnss.com/pages/resource-hub",
-  "sha256": "b3dfce7954ad351fe0fc2bbbe4dbb7afd0101ceb0fc01bb7f641bef80feced6f",
+  "sha256": "447fdf9e0c194e9bf03ff6fe82fe5209a45a5f6455abb762e542571a7f5cc44d",
   "mandatory": false,
   "notes": [
-    "Automatically uses M925B satellite signals when raw recording is stopped and NMEA V4.1 GSV while recording.",
-    "Restored M925B NavIC L5 and S-band signal decoding.",
-    "Added standard GSV mapping for SBAS and NavIC while hiding unknown signal identifiers.",
-    "Updated quick-command routing, POSTDATA commands, and legacy receiver correction forwarding compatibility.",
-    "Renamed device recording actions to Save output."
+    "Redesigned sidebar with compact port throughput, receiver information, and current position sections.",
+    "Added dual-device receiver comparison and collapsible secondary-device details.",
+    "Clarified receiver-side Input and Output rates and saved byte totals.",
+    "Shortened firmware and serial number display with full-value tooltips.",
+    "Enabled automatic reconnect globally and removed redundant connection labels.",
+    "Raw recording now saves BIN files without JSON sidecars.",
+    "Improved command/reply visibility and dual-device terminal clearing.",
+    "Made sidebar receiver and position values selectable and copyable.",
+    "Added spacing between dual-device sidebar values and the scrollbar.",
+    "Added GGA/GNS differential age in seconds for both devices, clearing unavailable or stale values.",
+    "Added a leading command-line boundary to terminated manual ASCII commands on both serial and TCP devices; preserved raw and HEX modes.",
+    "Command preview now uses the submitted text snapshot rather than reading the input box after transmission.",
+    "Satellite signals now prioritize the GGA satellites-used count independently of constellation and signal filters, falling back to signal usage flags when GGA is unavailable.",
+    "POSTDATA no longer sends UNLOGALL, preserving existing receiver log outputs."
   ],
-  "packageSizeBytes": 7871805
+  "packageSizeBytes": 7967041
 }
